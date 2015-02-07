@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <group Text="Postulante">
+    <item Text="Crear" NavigateUrl="~/Postulante.aspx"/>
+    <item Text="Modificar" />
+    <item Text="Eliminar" NavigateUrl="~/PostulanteEliminado.aspx" />
+  </group>
+  <group Text="Campaña">
+    <item Text="Crear Campaña" />
+    <item Text="Relacionar" />
+  </group>
+  
+</menu>
