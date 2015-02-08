@@ -68,6 +68,7 @@
     <Reference Include="DevExpress.Web.v12.1.resources, Version=12.1.0.0, Culture=es, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -120,6 +121,11 @@
     <Compile Include="CampañaPostulante.aspx.vb">
       <DependentUpon>CampañaPostulante.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_Data\DAO.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DAO.dbml</DependentUpon>
     </Compile>
     <Compile Include="PostulanteEliminado.aspx.designer.vb">
       <DependentUpon>PostulanteEliminado.aspx</DependentUpon>
@@ -195,6 +201,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App_Data\DAO.dbml.layout">
+      <DependentUpon>DAO.dbml</DependentUpon>
+    </None>
     <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -216,6 +225,11 @@
     <Content Include="PostulanteEliminado.aspx" />
     <Content Include="Light.master" />
     <Content Include="Main.master" />
+    <Content Include="App_Data\DAO.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DAO.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -260,6 +274,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\ServicioWeb1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <!--<ItemGroup>
     <Folder Include="App_Data\" />

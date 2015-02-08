@@ -6,87 +6,7 @@ GETPOST
 </name>
 </assembly>
 <members>
-<member name="F:GETPOST.CampañaPostulante.ddlCampaña">
-	<summary>
-Control ddlCampaña.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.CampañaPostulante.lstBox1">
-	<summary>
-Control lstBox1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.CampañaPostulante.btnDerecha">
-	<summary>
-Control btnDerecha.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.CampañaPostulante.btnIzquierda">
-	<summary>
-Control btnIzquierda.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.CampañaPostulante.lstBoxFinal">
-	<summary>
-Control lstBoxFinal.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.Campaña.LAbel1">
-	<summary>
-Control LAbel1.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.Campaña.txtDescripcion">
-	<summary>
-Control txtDescripcion.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.Campaña.LAbel2">
-	<summary>
-Control LAbel2.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.Campaña.ddlEmpresa">
-	<summary>
-Control ddlEmpresa.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.Campaña.btnAceptar">
-	<summary>
-Control btnAceptar.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:GETPOST.PostulanteEliminado.PnlMantenimiento">
+<member name="F:GETPOST.PostulanteEliminado.PnlMantenimiento">
 	<summary>
 Control PnlMantenimiento.
 </summary>
@@ -145,6 +65,62 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:GETPOST.Plantilla.ContentPlaceHolder1">
 	<summary>
 Control ContentPlaceHolder1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.CampañaPostulante.ddlCampaña">
+	<summary>
+Control ddlCampaña.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.CampañaPostulante.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.CampañaPostulante.lstBox1">
+	<summary>
+Control lstBox1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.CampañaPostulante.ObjectDataSource1">
+	<summary>
+Control ObjectDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.CampañaPostulante.btnDerecha">
+	<summary>
+Control btnDerecha.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.CampañaPostulante.btnIzquierda">
+	<summary>
+Control btnIzquierda.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.CampañaPostulante.lstBoxFinal">
+	<summary>
+Control lstBoxFinal.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -520,6 +496,54 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:GETPOST.Postulante.btnCancelar">
 	<summary>
 Control btnCancelar.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.Campaña.LAbel1">
+	<summary>
+Control LAbel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.Campaña.txtDescripcion">
+	<summary>
+Control txtDescripcion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.Campaña.LAbel2">
+	<summary>
+Control LAbel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.Campaña.ddlEmpresa">
+	<summary>
+Control ddlEmpresa.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.Campaña.SQLBasePrueba">
+	<summary>
+Control SQLBasePrueba.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.Campaña.btnAceptar">
+	<summary>
+Control btnAceptar.
 </summary>
 	<remarks>
 Campo generado automáticamente.

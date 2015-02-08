@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BasePrueba" Class="DAODataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=181.177.245.11;Initial Catalog=BasePrueba;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BasePruebaConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_ListarCampaña" Method="sp_ListarCampaña">
+    <ElementType Name="sp_ListarCampañaResult">
+      <Column Name="co_camp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="desc_camp" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="co_emp" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_listarEmpresas" Method="sp_listarEmpresas">
+    <ElementType Name="sp_listarEmpresasResult">
+      <Column Name="Co_emp" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Des_emp" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_RegistrarCampaña" Method="sp_RegistrarCampaña">
+    <Parameter Name="desc_camp" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="cod_emp" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_listarpostulantesCampañas" Method="sp_listarpostulantesCampañas">
+    <Parameter Name="cod_camp" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_listarpostulantesCampañasResult">
+      <Column Name="CO_TRAB" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="NO_TRAB" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="AP_PAT_TRAB" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="AP_MAT_TRAB" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NO_DIRE" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="NO_CUPS" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CO_AFPS" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CO_BANC_ABON" Type="System.String" DbType="VarChar(23)" CanBeNull="true" />
+      <Column Name="FG_CIVI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CO_NACI" Type="System.String" DbType="VarChar(26)" CanBeNull="true" />
+      <Column Name="CO_DPTO" Type="System.String" DbType="VarChar(26)" CanBeNull="true" />
+      <Column Name="CO_PROV" Type="System.String" DbType="VarChar(26)" CanBeNull="true" />
+      <Column Name="CO_DIST" Type="System.String" DbType="VarChar(26)" CanBeNull="true" />
+      <Column Name="FG_SEXO" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FG_ESTADO" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="NO_CORREO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(123)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_listarpostulantesNoCampaña" Method="sp_listarpostulantesNoCampaña">
+    <Parameter Name="cod_camp" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_listarpostulantesNoCampañaResult">
+      <Column Name="CO_TRAB" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="NO_TRAB" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="AP_PAT_TRAB" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="AP_MAT_TRAB" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="NO_DIRE" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="NO_CUPS" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CO_AFPS" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CO_BANC_ABON" Type="System.String" DbType="VarChar(23)" CanBeNull="true" />
+      <Column Name="FG_CIVI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="CO_NACI" Type="System.String" DbType="VarChar(26)" CanBeNull="true" />
+      <Column Name="CO_DPTO" Type="System.String" DbType="VarChar(26)" CanBeNull="true" />
+      <Column Name="CO_PROV" Type="System.String" DbType="VarChar(26)" CanBeNull="true" />
+      <Column Name="CO_DIST" Type="System.String" DbType="VarChar(26)" CanBeNull="true" />
+      <Column Name="FG_SEXO" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FG_ESTADO" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="NO_CORREO" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(123)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,9 @@
+C:\Users\cesar.oliart\Documents\dsd\SistemaRRHH\DAO\bin\Debug\DAO.dll.config
+C:\Users\cesar.oliart\Documents\dsd\SistemaRRHH\DAO\bin\Debug\DAO.dll
+C:\Users\cesar.oliart\Documents\dsd\SistemaRRHH\DAO\bin\Debug\DAO.pdb
+C:\Users\cesar.oliart\Documents\dsd\SistemaRRHH\DAO\bin\Debug\DAO.xml
+C:\Users\cesar.oliart\Documents\dsd\SistemaRRHH\DAO\obj\Debug\DAO.Resources.resources
+C:\Users\cesar.oliart\Documents\dsd\SistemaRRHH\DAO\obj\Debug\DAO.vbproj.GenerateResource.Cache
+C:\Users\cesar.oliart\Documents\dsd\SistemaRRHH\DAO\obj\Debug\DAO.dll
+C:\Users\cesar.oliart\Documents\dsd\SistemaRRHH\DAO\obj\Debug\DAO.xml
+C:\Users\cesar.oliart\Documents\dsd\SistemaRRHH\DAO\obj\Debug\DAO.pdb

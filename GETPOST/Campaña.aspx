@@ -15,7 +15,9 @@
     <tr>
         <td><asp:LAbel ID="LAbel2" runat="server" Text="Empresa" /></td>
         <td>
-            <asp:DropDownList ID="ddlEmpresa" runat="server"></asp:DropDownList></td>
+            <asp:DropDownList ID="ddlEmpresa" runat="server" DataSourceID="SQLBasePrueba" DataTextField="Des_emp" DataValueField="Co_emp"></asp:DropDownList>
+            <asp:SqlDataSource ID="SQLBasePrueba" runat="server" ConnectionString="<%$ ConnectionStrings:BasePruebaConnectionString %>" SelectCommand="SELECT * FROM [t_empresa]"></asp:SqlDataSource>
+        </td>
     </tr>
     <tr>
         <td>

@@ -5,4 +5,10 @@
 
     End Sub
 
+    Protected Sub btnAceptar_Click(sender As Object, e As EventArgs) Handles btnAceptar.Click
+        Dim datos As New DAODataContext
+        datos.sp_RegistrarCampaña(txtDescripcion.Text, ddlEmpresa.SelectedValue)
+        txtDescripcion.Text = ""
+        MsgBox("Exito")
+    End Sub
 End Class

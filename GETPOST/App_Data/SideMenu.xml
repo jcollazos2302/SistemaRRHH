@@ -6,8 +6,8 @@
     <item Text="Eliminar" NavigateUrl="~/PostulanteEliminado.aspx" />
   </group>
   <group Text="Campaña">
-    <item Text="Crear Campaña" />
-    <item Text="Relacionar" />
+    <item Text="Crear Campaña" NavigateUrl="~/Campaña.aspx" />
+    <item Text="Relacionar" NavigateUrl="~/CampañaPostulante.aspx" />
   </group>
   
 </menu>

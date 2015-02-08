@@ -24,7 +24,7 @@
         trabajador.codigoAFP = txtAFP.Text
         trabajador.numCUPS = txtCUSPP.Text
         trabajador.codigoDNI = txtBuscar_DNI.Text
-        trabajador.estadoActivo = 1
+        trabajador.estadoActivo = 0
         trabajador.direccion = txtDomicilio.Text
 
 
