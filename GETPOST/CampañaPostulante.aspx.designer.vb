@@ -14,13 +14,22 @@ Option Explicit On
 Partial Public Class CampañaPostulante
 
     '''<summary>
-    '''Control ddlCampaña.
+    '''Control Label1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents ddlCampaña As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control ddlEmpresa.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ddlEmpresa As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control SqlDataSource1.
@@ -32,6 +41,15 @@ Partial Public Class CampañaPostulante
     Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
 
     '''<summary>
+    '''Control ddlCampana.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents ddlCampana As Global.System.Web.UI.WebControls.DropDownList
+
+    '''<summary>
     '''Control lstBox1.
     '''</summary>
     '''<remarks>
@@ -39,15 +57,6 @@ Partial Public Class CampañaPostulante
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents lstBox1 As Global.System.Web.UI.WebControls.ListBox
-
-    '''<summary>
-    '''Control ObjectDataSource1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents ObjectDataSource1 As Global.System.Web.UI.WebControls.ObjectDataSource
 
     '''<summary>
     '''Control btnDerecha.

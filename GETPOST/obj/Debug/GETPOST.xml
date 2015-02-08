@@ -70,9 +70,17 @@ Control ContentPlaceHolder1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:GETPOST.CampañaPostulante.ddlCampaña">
+</member><member name="F:GETPOST.CampañaPostulante.Label1">
 	<summary>
-Control ddlCampaña.
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:GETPOST.CampañaPostulante.ddlEmpresa">
+	<summary>
+Control ddlEmpresa.
 </summary>
 	<remarks>
 Campo generado automáticamente.
@@ -86,17 +94,17 @@ Control SqlDataSource1.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:GETPOST.CampañaPostulante.lstBox1">
+</member><member name="F:GETPOST.CampañaPostulante.ddlCampana">
 	<summary>
-Control lstBox1.
+Control ddlCampana.
 </summary>
 	<remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
-</member><member name="F:GETPOST.CampañaPostulante.ObjectDataSource1">
+</member><member name="F:GETPOST.CampañaPostulante.lstBox1">
 	<summary>
-Control ObjectDataSource1.
+Control lstBox1.
 </summary>
 	<remarks>
 Campo generado automáticamente.

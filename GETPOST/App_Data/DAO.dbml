@@ -62,4 +62,10 @@
       <Column Name="nombre" Type="System.String" DbType="VarChar(123)" CanBeNull="true" />
     </ElementType>
   </Function>
+  <Function Name="dbo.sp_AsignarPostulanteCampaña" Method="sp_AsignarPostulanteCampaña">
+    <Parameter Name="cod_trab" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="cod_camp" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cod_emp" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
 </Database>

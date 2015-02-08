@@ -87,6 +87,12 @@ Partial Public Class DAODataContext
 		Dim result As IExecuteResult = Me.ExecuteMethodCall(Me, CType(MethodInfo.GetCurrentMethod,MethodInfo), cod_camp)
 		Return CType(result.ReturnValue,ISingleResult(Of sp_listarpostulantesNoCampañaResult))
 	End Function
+	
+	<Global.System.Data.Linq.Mapping.FunctionAttribute(Name:="dbo.sp_AsignarPostulanteCampaña")>  _
+	Public Function sp_AsignarPostulanteCampaña(<Global.System.Data.Linq.Mapping.ParameterAttribute(DbType:="VarChar(20)")> ByVal cod_trab As String, <Global.System.Data.Linq.Mapping.ParameterAttribute(DbType:="Int")> ByVal cod_camp As System.Nullable(Of Integer), <Global.System.Data.Linq.Mapping.ParameterAttribute(DbType:="Int")> ByVal cod_emp As System.Nullable(Of Integer)) As Integer
+		Dim result As IExecuteResult = Me.ExecuteMethodCall(Me, CType(MethodInfo.GetCurrentMethod,MethodInfo), cod_trab, cod_camp, cod_emp)
+		Return CType(result.ReturnValue,Integer)
+	End Function
 End Class
 
 Partial Public Class sp_ListarCampañaResult

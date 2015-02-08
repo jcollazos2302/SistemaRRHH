@@ -213,7 +213,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\SideMenu.xml" />
+    <Content Include="App_Data\SideMenu.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\TopMenu.xml" />
     <Content Include="Campaña.aspx" />
     <Content Include="CampañaPostulante.aspx" />
